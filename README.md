@@ -1,11 +1,11 @@
 # [IJCAI 2023] UCMT
 
-
 This repo is the PyTorch implementation of our paper:
 
 **["Co-training with High-Confidence Pseudo Labels for Semi-supervised Medical Image Segmentation"](https://arxiv.org/abs/2301.04465)** 
 
-![framework](docs/UCMT.png)
+<!-- ![framework](docs/UCMT.png) -->
+<img src=docs/UCMT.png width=75% />
 
 **U**ncertainty-guided **C**ollaborative **M**ean-**T**eacher (UCMT)
 
@@ -46,7 +46,7 @@ DATA/
 ### 2. Training
 #### 2.1 Adopting DeepLabv3Plus as backbone:
 ```angular2html
-python train.py --backbone Deeplabv3p
+python train.py --backbone DeepLabv3p
 ```
 #### 2.2 Adopting U-Net as backbone:
 ```angular2html
